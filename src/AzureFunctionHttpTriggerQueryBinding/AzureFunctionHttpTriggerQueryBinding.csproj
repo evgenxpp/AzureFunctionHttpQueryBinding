@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Microsoft.Azure.WebJobs.HttpTriggerQueryBinding</AssemblyName>
+    <RootNamespace>Microsoft.Azure.WebJobs.HttpTriggerQueryBinding</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.10" />
+  </ItemGroup>
+
+</Project>
